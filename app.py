@@ -8,6 +8,7 @@ from flask import url_for
 from flask import flash
 from flask import session as session_object
 from flask import make_response
+from flask_sqlalchemy import SQLAlchemy
 from functools import wraps
 # ORM: SQLAlchemy
 from sqlalchemy import create_engine, asc
