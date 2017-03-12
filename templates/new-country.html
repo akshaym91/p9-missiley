@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block bodycontent %}
+<main class="container">
+    <div class="">
+        <div class="">
+            <header class="">
+                <h1>Add a new country</h1>
+            </header>
+        </div>
+        <div class="container">
+            <div class="">
+                <h3>Create a new country</h3>
+                <form action="/country/new" method="post" autocomplete="on">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Country Name: </label>
+                        <input class="form-input" name="name" type="text" id="name">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-plus"></i> Add Country</button>
+                        <a class="btn btn-link" href="/">Cancel</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

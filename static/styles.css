@@ -1,0 +1,8 @@
+.g-button, .fb-button {
+    display: table;
+    margin: 2em auto;
+}
+
+#loading {
+    margin-top: 2em 0;
+}
