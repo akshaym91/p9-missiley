@@ -38,7 +38,7 @@ class Missile(Base):
     name = Column(String(80), nullable=False)
     id = Column(Integer, primary_key=True)
     description = Column(String(500))
-    country_id = Column(String(80), ForeignKey('country.id'))
+    country_id = Column(Integer, ForeignKey('country.id'))
     country = relationship(Country)
     link = Column(String(250))
     user_id = Column(Integer, ForeignKey('user.id'))
