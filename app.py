@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0,"/var/www/html/")
+
 # Flask dependancy
 from flask import Flask
 from flask import render_template
@@ -8,7 +11,7 @@ from flask import url_for
 from flask import flash
 from flask import session as session_object
 from flask import make_response
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy as sqlalchemy
 from functools import wraps
 # ORM: SQLAlchemy
 from sqlalchemy import create_engine, asc
@@ -33,7 +36,7 @@ app = Flask(__name__)
 
 # Read the credentials from the client _secrets file for Google Authentication
 CLIENT_ID = json.loads(
-    open('client_secrets.json', 'r').read())['web']['client_id']
+    open('/var/www/html/client_secrets.json', 'r').read())['web']['client_id']
 
 # Connect to missiles database
 engine = create_engine('postgresql://missiley:password@localhost/missiley')
