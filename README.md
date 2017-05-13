@@ -8,20 +8,20 @@ This project is built with Python backend with:
 - CRUD operations into an Postgres Database
 - SQL Alchemy as an ORM
 
-##Public URL
+## Public URL
 [http://52.87.241.178/](http://52.87.241.178/)
 
-##IP Address:
+## IP Address:
 52.87.241.178
 
-##SSH Port:
+## SSH Port:
 2200
 
-##SSH Key location:
+## SSH Key location:
 `/home/grader/.ssh/authorized_keys`
 
 
-##Configuration:
+## Configuration:
 - Base OS: Ubuntu with 512MB RAM, 1 vCPU, 20GB SSD
 - Updated all package `sudo apt-get update` `sudo apt-get upgrade`
 - Installed git `sudo apt-get install git-all`
@@ -66,7 +66,7 @@ exit
 - Added the domain to the developer console in both google oauth and facebook oauth.
 - Restarted webserver
 
-##Third party resources:
+## Third party resources:
 
 1. [Flask+SQLAlchemy](http://stackoverflow.com/questions/37950713/deploying-app-using-flask-with-apache-and-sqlalchemy)
 2. [IO Error](http://stackoverflow.com/questions/12201928/python-open-method-ioerror-errno-2-no-such-file-or-directory)
@@ -74,12 +74,12 @@ exit
 4. [Difference between SQLLite and Postgres](https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems)
 5. [Flask application on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 
-##Author
+## Author
 Akshay Menon
 
-##License
+## License
 MIT
 
-##Copyright
+## Copyright
 Copyright &copy; 2016 Akshay Menon
 
